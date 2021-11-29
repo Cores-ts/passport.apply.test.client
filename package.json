@@ -1,0 +1,17 @@
+{
+  "name": "test-client-for-signin-with-passport",
+  "version": "1.0.0",
+  "description": "OAuth2 client for testing the Apply with Passport integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "client-oauth2": "^4.3.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

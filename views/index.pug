@@ -1,0 +1,10 @@
+html
+  head
+    title Test the "Apply with Passport" integration
+  body
+    h1 Test the "Apply with Passport" integration
+
+    h2 Your configuration
+    pre #{ JSON.stringify(cfg, null, 2) }
+
+    a(href=cfg.paths.applyFlowStart) Start application flow
